@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Navigation Example</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+
+<!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <img src="images/restaurant.png" alt="logo" width="50px">
+		<span>The Diner</span>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav>
+        <button id= "myButton"></button>
+        <ul class= "menuLinks">
+            <li><a href="#">Hours</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li class="active"><a href="#">Menu</a></li>
+            <li><a href="#">Parking</a></li>
+            <li><a href="#">Catering</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+
+        <h1>Our Menu</h1>
+        <div class="allCards">
+            <section>
+                <h2>Hamburger</h2>
+                <img src="images/Burger.webp" alt="Hamburger" width="300" height="175" class="e2e">
+                <p>Our Hamburger is made on a sesame seed bun and includes lettuce, tomatoes, 
+                    pickles, onions, and of course our world famous beef.
+                </p>
+                <a href="#">Hamburger Options</a>
+            </section>
+
+            <section>
+                <h2>Hot Dog</h2>
+                <img src="images/Dog.webp" alt="Hot Dog" width="300" height="175" class="e2e">
+                <p>Our Hot Dogs are made from prime USDA approved beef. They can be topped 
+                    by onions, mustard, ketchup or any other sauce that you would like.
+                </p>
+                <a href="#">Hot Dog Options</a>
+            </section>
+
+            <section>
+                <h2>French Fries</h2>
+                <img src="images/Fries.webp" alt="French Fries" width="300" height="175" class="e2e">  
+                <p>Our French Fries are made from fresh Idaho Potatoes and are cooked here.
+                     We have lots of different sauces that you can try like barbecue and ketchup.
+                </p>
+                <a href="#">French Fries Options</a>
+            </section>
+
+            <section>
+                <h2>Milk Shake</h2>
+                <img src="images/MIlkshake.webp" alt="Milk Shake" width="300" height="175" class="e2e">
+                <p>Our Milkshake is made from fresh Ice Cream. We have a variety of flavors 
+                    including vanilla, chocolate, raspberry and our seasonal Peach!
+                </p>
+                <a href="#">Milk Shake Options</a>
+            </section>
+
+            <section>
+                <h2>Onion Rings</h2>
+                <img src="images/Rings.webp" alt="Onion Rings" width="300" height="175" class="e2e">
+                <p>Our Onion Rings are made from fresh onions grown in our backyard. We fry them 
+                    here fresh and are known worldwide for their amazing flavor.
+                </p>
+                <a href="#">Onion Rings Options</a>
+            </section>
+        </div>
+     
+
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <div>
+            <section class="contact">
+                <p><ion-icon name="person"></ion-icon> John Doe</p>
+                <p><ion-icon name="pizza"></ion-icon> Jacob's Diner, LLC</p>
+                <p><ion-icon name="mail"></ion-icon><a href="mailto:john@thediner.com"> john@thediner.com</a></p>
+                <p><ion-icon name="globe"></ion-icon><a href="https://thediner.com"> https://thediner.com</a></p>
+                <p><ion-icon name="call"></ion-icon><a href="tel:5554723829"> 555-472-3829</a></p>
+            </section>
+            <section class="social">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-pinterest"></ion-icon></a>
+            </section>
+            <section class="location">
+                <address>
+                    981 W Weber Canyon Road <br> Oakley, UT 84036
+                </address>
+            </section>
+        </div>
+
+
+        <p class="legal">&copy; <span id="year">2024</span> &bull; Jacob Burgess 
+            </p>
+    </footer>
+</div> <!-- end footer wrapper -->
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+<script src="js/scripts.js"></script>
+</body>
+</html> 
