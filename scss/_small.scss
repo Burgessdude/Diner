@@ -68,8 +68,8 @@ ul.menuLinks {
         padding: .75rem $gutter;
         text-decoration: none;
     }
-    li active a {
-        background-color: black;
+    li.active a {
+        background-color: red;
     }
 }
 

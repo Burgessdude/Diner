@@ -371,8 +371,8 @@ ul.menuLinks li a {
   padding: 0.75rem 10px;
   text-decoration: none;
 }
-ul.menuLinks li active a {
-  background-color: black;
+ul.menuLinks li.active a {
+  background-color: red;
 }
 
 ul.open.menuLinks {
