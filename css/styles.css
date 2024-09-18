@@ -372,7 +372,7 @@ ul.menuLinks li a {
   text-decoration: none;
 }
 ul.menuLinks li active a {
-  background-color: 255, 255, 255, 0.2;
+  background-color: black;
 }
 
 ul.open.menuLinks {
